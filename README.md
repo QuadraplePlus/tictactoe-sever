@@ -11,10 +11,24 @@
 전달값 
 <pre>
 {
-'username':'honggildong'.
-'password':'hong1234',
-'name':'홍길동'
+  'username':'honggildong'.
+  'password':'hong1234',
+  'name':'홍길동'
 }
 </pre>
-
 ### 결과
+
+#### 성공
+<pre>
+{
+  '_id':'1234567890abc',
+  'username':'honggildong',
+  'name':'홍길동'
+}
+</pre>
+#### 실패
+<pre>
+{
+  'message':'400 bad request'
+}
+</pre>
